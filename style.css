@@ -20,7 +20,7 @@ body {
 .info h1 {
     margin: 0;
     color: #000; /* Black color for the name */
-    font-size: 40px;
+    font-size: 36px;
     text-align: center;
     line-height: 1.5;
 }
@@ -52,12 +52,33 @@ body {
 }
 
 .container {
-    width: 80%;  /* More suitable for smaller screens */
+    width: 90%;  /* More suitable for smaller screens */
     margin: 0 auto;
     padding: 20px;
     background: white;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    line-height: 1.5;
 }
+.container > h2 {
+    margin: 0;
+    color: #000; /* Black color for the name */
+    font-size: 24px;
+    text-align: left;
+    font-weight: bold;    
+}
+.container > h3 {
+    margin: 0;
+    color: #000; /* Black color for the name */
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+}
+.container > ul {
+    margin: 0;
+    color: #000; /* Black color for the name */
+    text-align: left;
+}
+
 img {
     max-width: 100%;
     height: auto;
