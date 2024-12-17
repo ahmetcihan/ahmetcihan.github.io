@@ -57,12 +57,12 @@ body {
     padding: 20px;
     background: white;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    line-height: 1.5;
+    line-height: 1.8;
 }
 .container > h2 {
     margin: 0;
     color: #000; /* Black color for the name */
-    font-size: 24px;
+    font-size: 28px;
     text-align: left;
     font-weight: bold;    
 }
