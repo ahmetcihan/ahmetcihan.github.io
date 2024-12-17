@@ -44,16 +44,6 @@ body {
     text-decoration: underline;
 }
 
-.centered {
-    text-align: center;
-}
-
-.left-aligned {
-    text-align: left;
-    width: 100%; /* Full width to support left alignment */
-}
-
-
 .profile-pic img {
     width: 100px;  /* Smaller image size on smaller screens */
     height: auto;  /* Maintain aspect ratio */
