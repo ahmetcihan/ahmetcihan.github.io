@@ -52,7 +52,7 @@ body {
 }
 
 .container {
-    width: 95%;  /* More suitable for smaller screens */
+    width: 80%;  /* More suitable for smaller screens */
     margin: 0 auto;
     padding: 20px;
     background: white;
