@@ -73,17 +73,6 @@ body {
     text-align: left;
     font-weight: bold;
 }
-.container > ul {
-    margin: 0;
-    color: #000; /* Black color for the name */
-    text-align: left;
-    border-left: 1px solid #ccc; 
-    border-right: 1px solid #ccc; 
-    padding-left: 20px; 
-    padding-right: 10px; 
-    margin-left: 20px;
-    margin-right: 20px;
-}
 
 img {
     max-width: 100%;
@@ -91,7 +80,19 @@ img {
     display: block; /* Makes images block level to allow centering with margin */
     margin: 0 auto; /* Centers images */
 }
-@media (min-width: 600px) {
+.container > ul {
+    margin: 0;
+    color: #000; /* Black color for the name */
+    text-align: left;
+    border-left: 0px solid #ccc; 
+    border-right: 0px solid #ccc; 
+    padding-left: 0px; 
+    padding-right: 0px; 
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+@media screen and (orientation: landscape) {
     .header {
         flex-direction: row;  /* Original horizontal layout */
         justify-content: space-between;
@@ -109,16 +110,16 @@ img {
     .container {
         width: 60%;  /* Original width */
     }
+    
     .container > ul {
         margin: 0;
         color: #000; /* Black color for the name */
         text-align: left;
-        border-left: 0px solid #ccc; 
-        border-right: 0px solid #ccc; 
-        padding-left: 0px; 
-        padding-right: 0px; 
-        margin-left: 0px;
-        margin-right: 0px;
+        border-left: 1px solid #ccc; 
+        border-right: 1px solid #ccc; 
+        padding-left: 20px; 
+        padding-right: 10px; 
+        margin-left: 20px;
+        margin-right: 20px;
     }
-    
 }
