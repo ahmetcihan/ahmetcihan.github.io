@@ -77,6 +77,12 @@ body {
     margin: 0;
     color: #000; /* Black color for the name */
     text-align: left;
+    border-left: 1px solid #ccc; 
+    border-right: 1px solid #ccc; 
+    padding-left: 20px; 
+    padding-right: 10px; 
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 img {
