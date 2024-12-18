@@ -109,4 +109,16 @@ img {
     .container {
         width: 60%;  /* Original width */
     }
+    .container > ul {
+        margin: 0;
+        color: #000; /* Black color for the name */
+        text-align: left;
+        border-left: 0px solid #ccc; 
+        border-right: 0px solid #ccc; 
+        padding-left: 0px; 
+        padding-right: 0px; 
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
 }
