@@ -80,7 +80,7 @@ img {
     display: block; /* Makes images block level to allow centering with margin */
     margin: 0 auto; /* Centers images */
 }
-.container > ul {
+.container > ul, .container > ol{
     margin: 0;
     color: #000; /* Black color for the name */
     text-align: left;
@@ -111,7 +111,7 @@ img {
         width: 60%;  /* Original width */
     }
     
-    .container > ul {
+    .container > ul, .container > ol{
         margin: 0;
         color: #000; /* Black color for the name */
         text-align: left;
