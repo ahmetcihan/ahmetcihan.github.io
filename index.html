@@ -46,6 +46,12 @@
                 <li><a href="#project7">7- Automation and Process Control Projects</a></li>
                 <li><a href="#project8">8- Custom Engineering Projects</a></li>
             </ul>
+            <p style="line-height:0;margin-top:30px;"><a href="#personal_projects">Personal Projects</a></p>
+            <ul>
+                <li><a href="#project9">9- Rotary Inverted Pendulum Stabilization</a></li>
+                <li><a href="#project10">10- Development of a Low-Cost Rapid Prototyping CNC System</a></li>
+            </ul>
+
         </div>
         <div id="embedded_devices">
             <h2 style="line-height:20px;margin-top:30px;">Embedded Devices</h2>
@@ -232,17 +238,17 @@
             <li><strong>Asphalt Testing Machines:</strong> Development for CBR, Marshall, and Asphalt Binder Analysis systems.</li>
             <li><strong>Universal Testing Machines:</strong> Specializing in Electromechanical, Hydraulic, and Servo-Hydraulic configurations for diverse materials testing.</li>
             <p><strong>Press</strong> testing machine in action;</p>
-            <video controls style="width:100%; max-width:600px; height:auto; display:block; margin:auto;">
+            <video controls style="width:100%; max-width:300px; height:auto; display:block; margin:auto;">
                 <source src="press.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
             <p><strong>Marshall</strong> asphalt testing machine;</p>
-            <video controls style="width:100%; max-width:600px; height:auto; display:block; margin:auto;">
+            <video controls style="width:100%; max-width:300px; height:auto; display:block; margin:auto;">
                 <source src="marshall.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
             <p><strong>Direct Shearing</strong> testing machine;</p>
-            <video controls style="width:100%; max-width:600px; height:auto; display:block; margin:auto;">
+            <video controls style="width:100%; max-width:300px; height:auto; display:block; margin:auto;">
                 <source src="direct_shear.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -251,7 +257,6 @@
         <div style="text-align: center;">
             <a href="#top">Go to Top</a>
         </div>
-        <br>
         <div id="project7">
             <h3>7- Automation and Process Control Projects</h3>
         </div>
@@ -280,11 +285,9 @@
                 <li><strong>Reliable and Long-term Operation:</strong> Developed systems renowned for their durability and reliability, capable of sustaining long-term, uninterrupted automation for industrial processes.</li>
             </ul>
         </ul>
-        <br>
         <div style="text-align: center;">
             <a href="#top">Go to Top</a>
         </div>
-        <br>
 
         <div id="project8">
             <h3>8- Custom Engineering Projects</h3>
@@ -304,14 +307,85 @@
             
             <li><strong>Integrated LED and Water Animation Projects</strong></li>
             <p>For BLT Company, we developed a suite of electronic devices and software tailored for light water animations, enhancing their visual and interactive entertainment systems. This comprehensive project included creating strip LEDs, block LEDs, addressable spot LED drivers, DC motor drivers for pumps, and stepper motor drivers for dynamically moving fountains. These systems were integrated with Sunlite DMX control software, a popular choice for light music fountain entertainment systems. I was responsible for developing the software for driver and communication cards designed for LED-based lighting systems, focusing on lighting, animation, and screen interfaces. Additionally, I engineered embedded software and application software, and developed a two-axis spherical electromechanical system specifically designed to enrich illuminated water animations. This integration ensures seamless operation and synchronization across all hardware and software components, adhering to industry standards for performance and quality.</p>
+        
+        
+            <li><strong>Cold Compression Strength Test Machine Automation</strong></li>
+            <ul>
+                <p><strong>Overview:</strong> I led the enhancement of a Cold Compression Strength Test Machine using the TMC742 controller, aligning with ISO4700, ASTM E 382, and IS8625 standards. This fully automated system measures the crushing strength of iron ore pellets by precisely monitoring sample dimensions and loads.</p>
+                <video controls style="width:100%; max-width:600px; height:auto; display:block; margin:auto;">
+                    <source src="pellet.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <br>
+                <p style="line-height:0"><strong>Technical Implementation:</strong></p>
+                <ul>
+                    <li><strong>Control System:</strong> Utilized the TMC742 for comprehensive control and data handling. Developed firmware in C for the TMC742 to manage automation processes efficiently.</li>
+                    <li><strong>Sensors and Actuators:</strong> Integrated multiple sensors including load sensors, position encoders, and angle sensors. Also managed a stepper motor, relays for pneumatic cleaning of pellet residues, and a vibration motor to ensure seamless operation and maintenance.</li>
+                    <li><strong>User Interface and Connectivity:</strong> Crafted a user-friendly GUI using C++ and Qt, facilitating easy interaction and data visualization. The system could transmit data to PCs and printers via Ethernet, supporting effective data management and reporting.</li>
+                    <li><strong>Software Development:</strong> Wrote firmware for our stepper motor driver card and the TMC742 controller in C, ensuring robust and reliable performance across all device operations.</li>
+                </ul>
+                <p style="line-height:0"><strong>Capabilities:</strong></p>
+                <ul>
+                    <li>Features adjustable compression speeds and a vibrating pot feeder for bulk input, enhancing testing efficiency.</li>
+                    <li>Operates in both manual and automated modes, offering flexibility for standard testing and research applications.</li>
+                    <li>Delivers precise test data visualization and printing in kilograms with a resolution of 1 kg.</li>
+                </ul>
+                <p>This project significantly advanced the operational capabilities of the testing machine, providing reliable, automated control over complex testing procedures and data management.</p>
+                </ul>
+        
+        
         </ul>
 
-        <br>
         <div style="text-align: center;">
             <a href="#top">Go to Top</a>
         </div>
-        <br>
 
+        <div id="personal_projects">
+            <h2 style="line-height:20px;margin-top:30px;">Personal Projects</h2>
+        </div>
+
+        <div id="project9">
+            <h3>9- Rotary Inverted Pendulum Stabilization</h3>
+        </div>
+        <ul>
+            <p>This project was undertaken to analyze and compare the effectiveness of PID and LQR control strategies in stabilizing a rotary inverted pendulum. I constructed the pendulum setup using available mechanical components, and the rotational movement was facilitated by a stepper motor. Position feedback was captured through a 4096-resolution encoder, forming the basis for real-time control adjustments.</p>
+            <p>The control architecture comprised a PC program, a control card, and a stepper motor driver, establishing a comprehensive system from user interface down to hardware control. Below is a video demonstration of the pendulum in action, showcasing the dynamic response of the system to control inputs.</p>
+            <video controls style="width:100%; max-width:300px; height:auto; display:block; margin:auto;">
+                <source src="pendulum.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>The software for this project is divided into three distinct parts, each available on my GitHub for review:</p>
+            <ul>
+                <li><strong>GUI Software:</strong> Manages user interaction and visualizes the pendulum’s behavior in real-time.
+                    <a href="https://github.com/ahmetcihan/pendulum_controller"  target="_blank">View on GitHub</a></li>
+                <li><strong>Control Board Software:</strong> Processes the encoder feedback to dynamically adjust the pendulum’s position.
+                    <a href="https://github.com/ahmetcihan/pendulum_board"  target="_blank">View on GitHub</a></li>
+                <li><strong>Stepper Motor Driver Software:</strong> Directly controls the stepper motor based on the commands from the control board.
+                    <a href="https://github.com/ahmetcihan/pendulum_motor"  target="_blank">View on GitHub</a></li>
+            </ul>
+            <p>This project not only demonstrates my ability to implement complex control systems but also serves as a practical exploration of advanced control theories applied to a dynamic system.</p>
+        </ul>
+        <div style="text-align: center;">
+            <a href="#top">Go to Top</a>
+        </div>
+
+        <div id="project10">
+            <h3>10- Development of a Low-Cost Rapid Prototyping CNC System</h3>
+        </div>
+        <ul>
+            <li><strong>Overview:</strong> My master's thesis project at Hacettepe University involved the development of a cost-effective CNC system tailored for rapid prototyping and instrumentation applications. This system was designed to create prototypes using Fused Deposition Modeling (FDM), offering a viable solution with reasonable equipment costs.</li>
+            <br>
+            <img src="rapid_prototyping.png" alt="RAPID PROTOTYPING" style="width:100%; max-width:600px; height:auto; display:block; margin:auto;">
+            <br>
+            <li><strong>System Design:</strong> The CNC machine consisted of three axes for multi-directional movement and an additional head for dispensing thermoplastic material. Utilizing stepper motors and a DC motor for precision control, the system achieved accurate material deposition.</li>
+            <li><strong>Software Development:</strong> The project featured dual software implementations for simulation and real-time control. I developed PC software for system monitoring and control, alongside microcontroller software to manage operational commands directly. This included integration with stepper motor drivers for dynamic system response.</li>
+            <li><strong>Capabilities:</strong> Designed to support a variety of prototyping tasks, the system could generate prototypes from electronic designs to scaled models, using a sophisticated interface for control and customization. It supported both manual and automated operations, enabling it to function as both a research tool and a practical device for rapid prototyping.</li>
+            <li><strong>Thesis Significance:</strong>The project underscored the feasibility of deploying advanced manufacturing technologies in cost-restricted environments, highlighting the potential for innovative design and manufacturing approaches in engineering education.</li>
+            <a href="Rapid Prototyping Thesis.pdf" target="_blank">Download my full thesis (PDF)</a>
+        </ul>
+        <div style="text-align: center;">
+            <a href="#top">Go to Top</a>
+        </div>
     </div>
 </body>
 </html>
